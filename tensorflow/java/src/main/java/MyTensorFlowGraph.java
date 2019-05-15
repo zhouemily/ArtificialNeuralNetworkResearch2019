@@ -1,8 +1,10 @@
 /**
- * This program represents the following equation in
- * a TensorFlow graph and use TensorFlow to compute
- * its z value by providing x, y inputs for a predefined
- * set of a, b and c constants.
+ * This program represents the following equation in a TensorFlow graph
+ * and uses TensorFlow to compute its z value by providing x, y inputs for
+ * a predefined set of a, b and c constants.  In TensorFlow terminology,
+ * this is a "trained" model, each node in a TensorFlow graph represents
+ * and operation and each edge in the graph, called Tensor, provides input
+ * to the next node
  *
  * z = a*x + b*y + c
  *
