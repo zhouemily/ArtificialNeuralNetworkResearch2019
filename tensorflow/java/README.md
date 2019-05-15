@@ -12,10 +12,14 @@
    export JAVA_HOME=<location-JDK1.8-installed>
    ```
 3. git clone the repo and cd to this directory, then run
+   ```
    chmod +x ./build
    ./build
+   ```
 #### How to run
 cd to this directory, then run
+```
 chmod +x ./run
 > ./run
+```
 
