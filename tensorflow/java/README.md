@@ -1,4 +1,4 @@
-#### How to build
+#### How to build the program
 1. install maven
    ```
    mkdir ~/maven
@@ -16,7 +16,7 @@
    chmod +x ./build
    ./build
    ```
-#### How to run
+#### How to run the program
 cd to this directory, then run
 ```
 chmod +x ./run
