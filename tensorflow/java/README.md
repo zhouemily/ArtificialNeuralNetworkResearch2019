@@ -3,7 +3,7 @@
    ```
    mkdir ~/maven
    cd ~/maven
-   wget http://apache.osuosl.org/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.zip
+   curl -OJL http://apache.osuosl.org/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.zip
    unzip apache-maven-3.6.1-bin.zip
    export PATH=~/maven/bin:$PATH
    ```
@@ -12,8 +12,10 @@
    export JAVA_HOME=<location-JDK1.8-installed>
    ```
 3. git clone the repo and cd to this directory, then run
+   chmod +x ./build
    ./build
 #### How to run
 cd to this directory, then run
+chmod +x ./run
 > ./run
 
